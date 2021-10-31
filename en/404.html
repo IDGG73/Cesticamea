@@ -62,28 +62,12 @@
                     <li>
                         <a class="page-scroll" href="#faq">FAQ</a>
                     </li>
-                    <li>
-                        <div>
-                            <input type="range" min="0" max="100" value="100" class="slider" id="opacitySlider">
-                        </div>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
-<script>
-    var slider = document.getElementById("opacitySlider");
-    var output = document.getElementById("imageOpacity");
-    output.innerHTML = slider.value;
-
-    slider.oninput = function()
-    {
-        output.innerHTML = this.value;
-    }
-</script>
         <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
