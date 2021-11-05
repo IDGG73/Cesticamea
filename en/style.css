@@ -185,17 +185,26 @@ a:focus {
 
 @media(min-width:767px)
 {
-    .intro {
+    .intro
+    {
         height: 100%;
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .brand-heading
+    {
         font-size: 100px;
     }
 
-    .intro .intro-body .intro-text {
+    .intro .intro-body .intro-text
+    {
         font-size: 25px;
+    }
+
+    .intro .intro-body .intro-image
+    {
+        width: 100hv;
+        height: 100%;
     }
 }
 
